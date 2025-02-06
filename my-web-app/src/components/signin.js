@@ -39,11 +39,7 @@ export default function SignIn() {
             Đăng Ký
           </button>
         </form>
-        <div style={styles.linkGroup}>
-          <a href="#" style={styles.link}>
-            Quên mật khẩu
-          </a>
-        </div>
+       
         <div style={styles.linkGroup}>
           Đã có tài khoản?{' '}
           <Link to="/login" style={styles.link}> {/* Use Link for navigation */}
